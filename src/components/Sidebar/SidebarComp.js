@@ -8,6 +8,7 @@ import { LuBox, LuSearch } from 'react-icons/lu';
 import { BsBox } from 'react-icons/bs';
 import { TbDiscount2, TbHexagonLetterO } from 'react-icons/tb';
 import { CgProfile } from 'react-icons/cg';
+import { BiChevronDown } from 'react-icons/bi';
 import { MdOutlineDashboard } from 'react-icons/md';
 import { RiWallet3Line, RiQuestionnaireLine } from 'react-icons/ri';
 import ArrowBackSharpIcon from '@mui/icons-material/ArrowBackSharp';
@@ -16,7 +17,7 @@ import { useState } from 'react';
 import { Dashboard } from '../Dashboard/Dashborad';
 import { Routes, Route, Link } from 'react-router-dom';
 import './SidebarComp.css';
-import { Grid, Select } from '@mui/material';
+import { Avatar, Button, Grid, Select } from '@mui/material';
 import { Product } from '../Product/Product';
 import { Customers } from '../Customers/Customers';
 import { Income } from '../Income/Income';
@@ -130,6 +131,36 @@ export const SidebarComp = () => {
                      </MenuItem>
                      <MenuItem icon={<RiQuestionnaireLine />}>Terms</MenuItem>
                   </SubMenu>
+                  <div
+                     style={{
+                        color: '#7f80a2',
+                        backgroundColor: '#2d2d69',
+                        borderRadius: '0.3rem',
+                        marginRight: '0.8rem',
+                        marginLeft: '0.8rem',
+                        marginTop: '14rem',
+                     }}
+                  >
+                     <Button aria-describedby={90}>
+                        <Avatar
+                           alt='pro'
+                           size={90}
+                           src='https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671122.jpg?w=740&t=st=1696874510~exp=1696875110~hmac=a07657027e83bf6703cab7a1cb093af7047968355ff5324f46f0a9d4f0b2c22f'
+                        ></Avatar>
+                        <Typography
+                           style={{
+                              color: '#fff',
+                              marginLeft: '0.5rem',
+                              marginRight: '6rem',
+                              fontSize: '0.7rem',
+                           }}
+                        >
+                           Evono
+                        </Typography>
+
+                        <BiChevronDown size={20} color='#7f80a2' />
+                     </Button>
+                  </div>
                </Menu>
             </Sidebar>
             <div style={{ padding: 0, width: '100%' }}>
