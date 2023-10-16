@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fit-dashboard/static/css/main.995995b6.css",
-    "main.js": "/fit-dashboard/static/js/main.bb1c38a2.js",
+    "main.js": "/fit-dashboard/static/js/main.aa0bfe3d.js",
     "index.html": "/fit-dashboard/index.html",
     "main.995995b6.css.map": "/fit-dashboard/static/css/main.995995b6.css.map",
-    "main.bb1c38a2.js.map": "/fit-dashboard/static/js/main.bb1c38a2.js.map"
+    "main.aa0bfe3d.js.map": "/fit-dashboard/static/js/main.aa0bfe3d.js.map"
   },
   "entrypoints": [
     "static/css/main.995995b6.css",
-    "static/js/main.bb1c38a2.js"
+    "static/js/main.aa0bfe3d.js"
   ]
 }
